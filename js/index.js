@@ -1,5 +1,3 @@
-// Hemos omitido los acentos en los comentarios por compatibilidad
-
 $(document).ready(function () {
   // Funcion para ordenar los eventos
   function organizarEventos(eventos, fechaReferencia) {

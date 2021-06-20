@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   //Define las variables que necesites
   var eventos, fechaActual, eventosPasados;

@@ -10,7 +10,7 @@ $(document).ready(function () {
     //Guarda el resultado en variables
     eventos = peticion.eventos;
     fechaActual = peticion.fechaActual;
-    //Selecciona los eventos que sean anteriores a la fecha actual del JSON
+    //Selecciona los eventos que sean posteriores a la fecha actual del JSON
     eventosProximos = eventos.filter(e => new Date(e.fecha).getTime() >= new Date(fechaActual).getTime());
     //Ordena los eventos segun la fecha (los mas recientes primero)
     eventosProximos = eventosProximos.sort((a, b) => {

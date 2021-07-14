@@ -4,7 +4,7 @@ $(document).ready(function () {
   var eventos;
 
   $.ajax({
-    url: "http://127.0.0.1:5500/info.json"
+    url: "info.json"
   }).done(function (peticion) {
     //Guarda el resultado en una variable
     eventos = peticion.eventos;
